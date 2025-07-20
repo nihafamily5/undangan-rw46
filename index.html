@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Undangan Tirakatan HUT RI ke-80</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: #fdf6e3;
+      color: #333;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1, h2 {
+      color: #b10000;
+    }
+    .divider {
+      width: 100px;
+      height: 3px;
+      background: #b10000;
+      margin: 20px auto;
+    }
+    .section {
+      margin-top: 30px;
+    }
+    .footer {
+      margin-top: 40px;
+      font-style: italic;
+    }
+    form {
+      margin-top: 30px;
+      text-align: left;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      background-color: #b10000;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #880000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🇮🇩 Undangan Resmi 🇮🇩</h1>
+    <h2>Malam Tirakatan & Tasyakuran</h2>
+    <div class="divider"></div>
+    <p>Dalam Rangka Memperingati</p>
+    <h2>Hari Ulang Tahun ke-80 Republik Indonesia</h2>
+    <p>RW 46 Perum Banteng Baru</p>
+
+    <div class="section">
+      <p>🗓️ Sabtu, 16 Agustus 2025 | 🕗 19.30 WIB – selesai</p>
+      <p>📍 Balai Warga RW 46, Perum Banteng Baru</p>
+    </div>
+
+    <div class="section">
+      <p>Acara akan diisi dengan:</p>
+      <ul style="text-align: left; display: inline-block;">
+        <li>🕯️ Doa dan renungan kemerdekaan</li>
+        <li>🎙️ Sambutan Ketua RW</li>
+        <li>🎊 Kebersamaan warga</li>
+        <li>🍱 Ramah tamah & makan bersama</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>📩 Konfirmasi Kehadiran (RSVP)</h3>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <label for="name">Nama Lengkap</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="status">Kehadiran</label>
+        <select id="status" name="status" required>
+          <option value="">-- Pilih --</option>
+          <option value="Hadir">Hadir</option>
+          <option value="Tidak Hadir">Tidak Hadir</option>
+          <option value="Masih Belum Pasti">Belum Pasti</option>
+        </select>
+
+        <label for="message">Pesan Tambahan (Opsional)</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Kirim Konfirmasi</button>
+      </form>
+    </div>
+
+    <div class="section footer">
+      <p>Hormat kami,</p>
+      <strong>Panitia Peringatan HUT RI ke-80<br/>RW 46 Perum Banteng Baru</strong>
+    </div>
+  </div>
+</body>
+</html>
